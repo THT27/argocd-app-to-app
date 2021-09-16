@@ -12,7 +12,7 @@ spec:
   project: default
   source:
     path: charts/argo-cd
-    repoURL: https://github.com/ikamd0712/argocd-app-to-app.git #https://github.com/arthurk/argocd-example-install.git
+    repoURL: https://github.com/ikamd0712/argocd-app-to-app.git
     targetRevision: HEAD
   syncPolicy:
     automated:
